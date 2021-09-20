@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-image: url("image/pexels-alesia-kozik-6781008.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: fit-content;
+    margin:auto;
+    height:auto;
+    background: #e4e3e3;
+    color:rgb(48, 43, 43);
+    border-radius: 5px 10px 10px 5px;
+}
+.heading{
+    margin:2rem;
+    font-size: 3rem;
+}
+input{
+    display: block;
+    font-size: 1rem;
+    margin:1rem 2rem;
+    width:80%
+}
+button{
+    margin:2rem 0;
+    font-size: 1rem;
+    padding:0.5rem;
+    border-radius: 5px;
+}
+button:hover{
+    color:#e4e3e3;
+    background:rgb(48, 43, 43);
+    border-radius: 5px;
+    animation:button 1s linear;
+
+}
+.output{
+    margin:1rem;
+    font-size: 1rem;
+}
+@keyframes button {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity:0.5;
+    }
+    100%{
+
+        opacity: 1;
+    }
+}
+
